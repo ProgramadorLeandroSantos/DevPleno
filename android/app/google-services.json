@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992839459871",
+    "project_id": "devpleno-android",
+    "storage_bucket": "devpleno-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992839459871:android:bfa663489e88e23fdca12a",
+        "android_client_info": {
+          "package_name": "com.devpleno"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992839459871-gh0h2r3tl46vscobgtnldotr8ivslfo3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0S1SVg-9eNx3wCuXge3SJ5PYUTzDmOjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992839459871-gh0h2r3tl46vscobgtnldotr8ivslfo3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
