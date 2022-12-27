@@ -8,6 +8,8 @@ import {
 } from 'react-native';
 
 import { Colors } from 'react-native/Libraries/NewAppScreen';
+import codePush from "react-native-code-push";
+
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -21,10 +23,10 @@ const App = () => {
         style={{
           backgroundColor: isDarkMode ? Colors.black : Colors.white,
         }}>
-        <Text style={{ fontSize: 30 }}>Hello DevPleno</Text>
+        <Text style={{ fontSize: 30, color: 'red' }}>Hello DevPleno</Text>
       </View>
     </SafeAreaView>
   );
 };
 
-export default App;
+export default codePush({ checkFrequency: codePush.CheckFrequency.ON_APP_RESUME })(App);

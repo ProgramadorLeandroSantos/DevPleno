@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">devpleno</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">2g8U7Od4A_BinvWA7wG8B7KkamPi8LMbH4_5S</string>
 </resources>
